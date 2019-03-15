@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Karla';
+}
+
+body {
+  margin: 10;
+  font-family: 'Karla';
+  background-image: url(https://www.xmple.com/wallpaper/white-pink-stripes-streaks-lines-2048x1152-c2-ffffff-ffc0cb-l2-41-66-a-240-f-1.svg);
+  background-attachment: fixed;
+  padding: 25px;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffc0cb;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ffc0cb;
+  color: white;
+}
+
+.content {
+  background-color: #ffc0cb;
+  border-style: dashed;
+  border-color: white; 
+  border-width: 10px;
+  padding: 10px; 
+}
+
+.content2 {
+  background-color: white;
+  padding: 10px; 
+  height: max-content
+}
+
+.footer {
+  background-color: #ffc0cb;
+  padding: 10px;
+  text-align: left;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 5px solid #ffc0cb;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Crafty Girls';
+  font-size: 400%;
+}
+
+h3 {
+  font-size: 300%
+}
