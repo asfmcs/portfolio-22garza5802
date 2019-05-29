@@ -1,0 +1,231 @@
+<html>
+<head>
+<title>Outstanding Medal Design</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="https://static.codehs.com/gulp/ec071a764d83f34910ba21fab0b0f0cc20293542/chs-js-lib/chs.js"></script>
+
+
+<style>
+canvas {
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+pre {
+    border: 1px solid black;
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    background-color: #F5F5F5;
+}
+</style>
+
+</head>
+
+<body>
+<h1>Outstanding Medal Design</h1>
+
+
+
+<canvas
+width="400"
+height="500"
+class="codehs-editor-canvas"></canvas>
+<pre id="console"></pre>
+
+<script>
+window.onload = function() {
+
+    function start(){
+    
+    var pinky = new Color(255,192,203);
+    var line = new Line(300, -100, 600, 1000);
+    line.setColor(pinky);
+    line.setLineWidth(150);
+    line.setEndpoint(170, 350);
+    add(line);
+    
+    var aqua = new Color(0,206,209);
+    var line = new Line(100, -100, 600, 1000);
+    line.setColor(aqua);
+    line.setLineWidth(150);
+    line.setEndpoint(200, 300);
+    add(line);
+    
+    var rect = new Rectangle(200,100);
+    rect.setPosition(95,190);
+    rect.setColor(Color.white);
+    add(rect);
+    
+    var gold = new Color(207,181,59);
+    var circle = new Circle(130);
+    var posX = getWidth() / 2;
+    var posY = (getHeight() / 2) * 1.45;
+    circle.setPosition(posX, posY);
+    circle.setColor(gold);
+    add (circle);
+    
+    /*details*/
+    var gold4 = new Color(218,165,32);
+    var line = new Line(0, 0, 0, 0);
+    line.setColor(gold4);
+    line.setLineWidth(20);
+    line.setPosition(170,206);
+    line.setEndpoint(363, 527);
+    add(line);
+    
+    var gold4 = new Color(218,165,32);
+    var line = new Line(0, 0, 0, 0);
+    line.setColor(gold4);
+    line.setLineWidth(20);
+    line.setPosition(240,206);
+    line.setEndpoint(400, 527);
+    add(line);
+    
+    var gold4 = new Color(218,165,32);
+    var line = new Line(0, 0, 0, 0);
+    line.setColor(gold4);
+    line.setLineWidth(20);
+    line.setPosition(60,306);
+    line.setEndpoint(170, 527);
+    add(line);
+    
+    var gold2 = new Color(212,175,55);
+    var line = new Line(0, 0, 0, 0);
+    line.setColor(gold2);
+    line.setLineWidth(20);
+    line.setPosition(60,350);
+    line.setEndpoint(250, 500);
+    add(line);
+    
+    var gold2 = new Color(212,175,55);
+    var line = new Line(0, 0, 0, 0);
+    line.setColor(gold2);
+    line.setLineWidth(20);
+    line.setPosition(130,220);
+    line.setEndpoint(350, 500);
+    add(line);
+    
+    var gold2 = new Color(212,175,55);
+    var line = new Line(0, 0, 0, 0);
+    line.setColor(gold2);
+    line.setLineWidth(20);
+    line.setPosition(90,250);
+    line.setEndpoint(300, 500);
+    add(line);
+    
+    var gold2 = new Color(212,175,55);
+    var line = new Line(0, 0, 0, 0);
+    line.setColor(gold2);
+    line.setLineWidth(20);
+    line.setPosition(200,200);
+    line.setEndpoint(450, 500);
+    add(line);
+    
+    var gold3 = new Color(197,179,88);
+    var line = new Line(0, 0, 0, 0);
+    line.setColor(gold3);
+    line.setLineWidth(20);
+    line.setPosition(175,194);
+    line.setEndpoint(326, 417);
+    add(line);
+    
+    var gold3 = new Color(197,179,88);
+    var line = new Line(0, 0, 0, 0);
+    line.setColor(gold3);
+    line.setLineWidth(20);
+    line.setPosition(53,256);
+    line.setEndpoint(273, 503);
+    add(line);
+    
+    var gold2 = new Color(212,175,55);
+    var line = new Line(0, 0, 0, 0);
+    line.setColor(gold2);
+    line.setLineWidth(20);
+    line.setPosition(50,300);
+    line.setEndpoint(300, 500);
+    add(line);
+    
+    var gold3 = new Color(197,179,88);
+    var line = new Line(0, 0, 0, 0);
+    line.setColor(gold3);
+    line.setLineWidth(20);
+    line.setPosition(109,236);
+    line.setEndpoint(473, 693);
+    add(line);
+    
+    var gold3 = new Color(197,179,88);
+    var line = new Line(0, 0, 0, 0);
+    line.setColor(gold3);
+    line.setLineWidth(20);
+    line.setPosition(20,336);
+    line.setEndpoint(263, 527);
+    add(line);
+    
+    var gold4 = new Color(218,165,32);
+    var line = new Line(0, 0, 0, 0);
+    line.setColor(gold4);
+    line.setLineWidth(20);
+    line.setPosition(100,236);
+    line.setEndpoint(263, 527);
+    add(line);
+    
+    /*details*/
+   
+    var rect = new Rectangle(200,30);
+    rect.setPosition(95,190);
+    rect.setColor(Color.white);
+    add(rect);
+    
+    var rect = new Rectangle(100,200);
+    rect.setPosition(-30,190);
+    rect.setColor(Color.white);
+    add(rect);
+    
+    var rect = new Rectangle(100,400);
+    rect.setPosition(330,190);
+    rect.setColor(Color.white);
+    add(rect);
+   
+    var copter = new WebImage("YHqsP.png");
+    copter.setSize(260, 260);
+    copter.setPosition(70, 220);
+    add(copter);
+   
+    var gold = new Color(207,181,59);
+    var rect = new Rectangle(20,90);
+    rect.setPosition(95,190);
+    rect.setColor(gold);
+    add(rect);
+    
+    var gold = new Color(207,181,59);
+    var rect = new Rectangle(20,75);
+    rect.setPosition(275,190);
+    rect.setColor(gold);
+    add(rect);
+    
+    var gold = new Color(207,181,59);
+    var rect = new Rectangle(200,20);
+    rect.setPosition(95,185);
+    rect.setColor(gold);
+    add(rect);
+    
+    var copter = new WebImage("Icon_Olympic_Rings.png");
+    copter.setSize(100, 100);
+    copter.setPosition(100, 260);
+    add(copter);
+    
+}
+
+
+    if (typeof start === 'function') {
+        start();
+    }
+};
+</script>
+
+</body>
+</html>

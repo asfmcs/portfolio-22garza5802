@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+        <a-sphere 
+                src="https://codehs.com/uploads/a95cf62d6f465f551ce9067e72ccb3e4"
+                radius="50"
+                position="0 20 -300">
+                <a-animation
+                    attribute="rotation"
+                    from="0 0 0"
+                    to="0 360 0"
+                    dur="10000"
+                    begin="click">
+                </a-animation>
+            </a-sphere>
+            
+            <a-sphere 
+                src="https://codehs.com/uploads/e959db0d11f9715d9c0e7570b1adf0e3"
+                radius="10"
+                position="50 70 -300">
+                <a-animation
+                    attribute="rotation"
+                    from="0 0 0"
+                    to="0 360 0"
+                    dur="10000"
+                    begin="click">
+                </a-animation>
+            </a-sphere>
+            
+            <a-sphere 
+                src="https://codehs.com/uploads/03b2d0b881d091b8f646953de0f9c2dd"
+                radius="3000"
+                position="-5000 1000 -2000">
+                <a-animation
+                    attribute="rotation"
+                    from="0 0 0"
+                    to="0 360 0"
+                    dur="10000"
+                    begin="click">
+                </a-animation>
+            </a-sphere>
+            
+            <a-sphere 
+                color="violet"
+                radius="3"
+                position="60 -30 -150">
+                <a-animation
+                    attribute="color"
+                    from="violet"
+                    to="aquamarine"
+                    dur="5000"
+                    repeat="indefinite"
+                    direction="alternate">
+                </a-animation>
+                <a-animation
+                    attribute="position"
+                    from="60 -30 -150"
+                    to="-100 -40 -100"
+                    dur="5000"
+                    repeat="indefinite">
+                </a-animation>
+            </a-sphere>
+            
+            <a-sphere 
+                color="violet"
+                radius="3"
+                position="-20 60 -100">
+                <a-animation
+                    attribute="color"
+                    from="violet"
+                    to="aquamarine"
+                    dur="5000"
+                    repeat="indefinite"
+                    direction="alternate">
+                </a-animation>
+                <a-animation
+                    attribute="position"
+                    from="-20 60 -100"
+                    to="140 40 -150"
+                    dur="5000"
+                    repeat="indefinite">
+                </a-animation>
+            </a-sphere>
+            
+            <a-camera>
+                <a-cursor fuse="true" fuse-timout="1000"></a-cursor>
+            </a-camera>
+            
+            <a-sky src="https://codehs.com/uploads/b4cc1ff2d9a21e283f70af0e74cdd2e5"></a-sky>
+        </a-scene>
+    </body>
+</html>
